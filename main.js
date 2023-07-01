@@ -26,7 +26,7 @@ export function createApp() {
 	}
 }
 // #endif
-let baseUrl = "http://192.168.31.61:8201/hxds-customer"
+let baseUrl = "http://192.168.31.203:8201/hxds-customer"
 
 Vue.prototype.url = {
 	registerNewCustomer: `${baseUrl}/customer/registerNewCustomer`,
